@@ -4,7 +4,9 @@ types 1) inbuilt
 a) page.getByRole ("Button", {name = "submit"}) OR ("textbox", {name: "username"})
 b) page.getbyText("login")
 c) page.getByPlaceholder("password")
-
+6) page.getByLabel("username")
+7) page.getByAltText("image")
+8) page.getByTitle("Title")
 
 
 2)Xpath
